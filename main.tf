@@ -12,7 +12,7 @@ module "ec2_instance" {
   ami           = "ami-02b60b5095d1e5227" # Replace with your desired AMI
   key_name      = "ec2.pem"       # Replace with your key pair name
   subnet_id     = "subnet-vpc-0bcd5417d45a7e7cc" # Replace with your subnet ID
-  vpc_security_group_ids = ["sg-launch-wizard-1"] # Replace with your security group IDs
+  vpc_security_group_ids = ["launch-wizard-2"] # Replace with your security group IDs
   tags = {
     Name = "MyEC2Instance"
   }
